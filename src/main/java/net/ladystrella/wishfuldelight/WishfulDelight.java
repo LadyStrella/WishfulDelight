@@ -1,5 +1,7 @@
 package net.ladystrella.wishfuldelight;
 
+import net.ladystrella.wishfuldelight.item.ModdedBlocks;
+import net.ladystrella.wishfuldelight.item.ModdedCreativeMenu;
 import net.ladystrella.wishfuldelight.item.ModdedItems;
 import net.minecraft.world.item.*;
 import org.slf4j.Logger;
@@ -29,20 +31,14 @@ public class WishfulDelight
 
     public WishfulDelight(IEventBus modEventBus, ModContainer modContainer)
     {
-        // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-        // Register ourselves for server and other game events we are interested in.
-        // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
-        // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
         modEventBus.register(ModEvents.class);
         ModdedItems.register(modEventBus);
+        ModdedBlocks.register(modEventBus);
+        ModdedCreativeMenu.register(modEventBus);
 
-        // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
-
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
