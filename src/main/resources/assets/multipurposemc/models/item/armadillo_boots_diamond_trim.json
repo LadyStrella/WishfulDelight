@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "multipurposemc:item/armadillo_boots_color",
-    "layer1": "multipurposemc:item/armadillo_boots_overlay",
-    "layer2": "minecraft:trims/items/boots_trim_diamond"
-  }
-}

@@ -1,8 +1,7 @@
-package net.ladystrella.multipurposemc;
+package net.ladystrella.wishfuldelight;
 
-import net.ladystrella.multipurposemc.item.ModdedItems;
+import net.ladystrella.wishfuldelight.item.ModdedItems;
 import net.minecraft.world.item.*;
-import net.neoforged.fml.event.IModBusEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -21,14 +20,14 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(MultipurposeMc.MODID)
-public class MultipurposeMc
+@Mod(WishfulDelight.MODID)
+public class WishfulDelight
 {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "multipurposemc";
+    public static final String MODID = "wishfuldelight";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public MultipurposeMc(IEventBus modEventBus, ModContainer modContainer)
+    public WishfulDelight(IEventBus modEventBus, ModContainer modContainer)
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -54,9 +53,6 @@ public class MultipurposeMc
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.COMBAT){
-            event.accept(ModdedItems.ARMADILLO_BOOTS);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
