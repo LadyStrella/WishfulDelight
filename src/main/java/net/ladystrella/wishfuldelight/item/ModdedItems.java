@@ -11,7 +11,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModdedItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WishfulDelight.MODID);
 
-    public static final DeferredItem<Item> CHEESE_WEDGE = ITEMS.register("cheese_wedge",() -> new Item(new Item.Properties().food(ModdedFood.CHEESE)));
+    public static final DeferredItem<Item> CHEESE_WEDGE = ITEMS.register("cheese_wedge",
+            () -> new Item(new Item.Properties().food(ModdedFood.CHEESE)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
