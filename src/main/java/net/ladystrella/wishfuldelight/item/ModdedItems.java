@@ -13,6 +13,8 @@ public class ModdedItems {
 
     public static final DeferredItem<Item> CHEESE_WEDGE = ITEMS.register("cheese_wedge",
             () -> new Item(new Item.Properties().food(ModdedFood.CHEESE)));
+    public static final DeferredItem<Item> SOFT_CHEESE_WEDGE = ITEMS.register("soft_cheese_wedge",
+            () -> new Item(new Item.Properties().food(ModdedFood.CHEESE)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

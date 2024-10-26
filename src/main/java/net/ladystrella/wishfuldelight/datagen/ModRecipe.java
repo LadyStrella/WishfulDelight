@@ -5,7 +5,13 @@ import net.ladystrella.wishfuldelight.item.ModdedItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
+import vectorwing.farmersdelight.common.registry.ModItems;
+import vectorwing.farmersdelight.common.tag.CommonTags;
+import vectorwing.farmersdelight.data.builder.CuttingBoardRecipeBuilder;
+
 
 import java.util.concurrent.CompletableFuture;
 
@@ -30,5 +36,7 @@ public class ModRecipe extends RecipeProvider implements IConditionBuilder {
                 .requires(ModdedBlocks.CHEESE_WHEEL)
                 .unlockedBy("has_cheese_wheel",has(ModdedBlocks.CHEESE_WHEEL))
                 .save(recipeOutput, "wishfuldelight:cut_cheese");
+
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(new ItemLike[]{(ItemLike) ModdedBlocks.CHEESE_WHEEL.get().asItem()}), Ingredient.of(CommonTags.TOOLS_KNIFE), (ItemLike)ModdedItems.CHEESE_WEDGE.get(), 4).build(recipeOutput);
     }
 }

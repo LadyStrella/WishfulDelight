@@ -1,5 +1,6 @@
 package net.ladystrella.wishfuldelight;
 
+import net.ladystrella.wishfuldelight.item.ModdedBlockEntities;
 import net.ladystrella.wishfuldelight.item.ModdedBlocks;
 import net.ladystrella.wishfuldelight.item.ModdedCreativeMenu;
 import net.ladystrella.wishfuldelight.item.ModdedItems;
@@ -36,8 +37,8 @@ public class WishfulDelight
         modEventBus.register(ModEvents.class);
         ModdedItems.register(modEventBus);
         ModdedBlocks.register(modEventBus);
+        ModdedBlockEntities.register(modEventBus);
         ModdedCreativeMenu.register(modEventBus);
-
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

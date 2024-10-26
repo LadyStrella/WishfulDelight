@@ -1,5 +1,8 @@
 {
   "item.wishfuldelight.cheese_wedge": "Cheese Wedge",
   "block.wishfuldelight.cheese_wheel": "Cheese Wheel",
+  "item.wishfuldelight.soft_cheese_wedge": "Soft Cheese Wedge",
+  "block.wishfuldelight.soft_cheese_wheel": "Soft Cheese Wheel",
+  "block.wishfuldelight.keg": "Keg Fermenter",
   "creative_tab.wishfuldelight": "Wishful Delight"
 }

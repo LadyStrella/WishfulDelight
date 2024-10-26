@@ -2,21 +2,22 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [24, 24],
 	"textures": {
-		"0": "wishfuldelight:block/cheeseblock",
-		"particle": "wishfuldelight:item/cheese_wheel"
+		"0": "cheeseblock",
+		"particle": "cheeseblock"
 	},
 	"elements": [
 		{
 			"name": "Cheese_Slice",
-			"from": [8, 0, 2],
-			"to": [14, 6, 8],
+			"from": [8, 0, 8],
+			"to": [14, 6, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
 			"faces": {
-				"north": {"uv": [0, 12, 4, 16], "texture": "#0"},
-				"east": {"uv": [4, 8, 8, 12], "texture": "#0"},
-				"south": {"uv": [12, 12, 16, 16], "texture": "#0"},
-				"west": {"uv": [8, 8, 12, 12], "texture": "#0"},
-				"up": {"uv": [4, 0, 8, 4], "texture": "#0"},
-				"down": {"uv": [12, 4, 16, 8], "texture": "#0"}
+				"north": {"uv": [8, 8, 12, 12], "texture": "#0"},
+				"east": {"uv": [0, 12, 4, 16], "texture": "#0"},
+				"south": {"uv": [4, 8, 8, 12], "texture": "#0"},
+				"west": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"up": {"uv": [4, 0, 8, 4], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [12, 4, 16, 8], "rotation": 270, "texture": "#0"}
 			}
 		}
 	],

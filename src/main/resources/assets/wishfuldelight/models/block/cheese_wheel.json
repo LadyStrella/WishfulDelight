@@ -1,0 +1,7 @@
+{
+  "parent": "wishfuldelight:block/cheeseblock",
+  "textures": {
+    "0": "wishfuldelight:block/cheese_wheel",
+    "particle": "wishfuldelight:item/cheese_wheel"
+  }
+}

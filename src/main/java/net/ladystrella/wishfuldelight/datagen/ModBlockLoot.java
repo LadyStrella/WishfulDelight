@@ -20,6 +20,8 @@ public class ModBlockLoot extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModdedBlocks.CHEESE_WHEEL.get());
+        dropSelf(ModdedBlocks.SOFT_CHEESE_WHEEL.get());
+        dropSelf(ModdedBlocks.KEG.get());
     }
 
     @Override

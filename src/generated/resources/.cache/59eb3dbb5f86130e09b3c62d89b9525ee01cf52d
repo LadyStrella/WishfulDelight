@@ -1,2 +1,4 @@
-// 1.21.1	2024-10-20T17:15:12.897893472	Loot Tables
+// 1.21.1	2024-10-26T14:05:44.297731334	Loot Tables
 37f14bbda26a5fcfefc1d9274abca3261543692b data/wishfuldelight/loot_table/blocks/cheese_wheel.json
+7f100cf17471e0a99e6ab5fcb61038845cb701a8 data/wishfuldelight/loot_table/blocks/keg.json
+b4d82b8f74edaef786a0e0ac1eb469d837533628 data/wishfuldelight/loot_table/blocks/soft_cheese_wheel.json

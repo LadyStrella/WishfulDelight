@@ -1,67 +1,67 @@
 {
   "variants": {
     "bites=0,facing=east": {
-      "model": "wishfuldelight:block/cheeseblock",
+      "model": "wishfuldelight:block/cheese_wheel",
       "y": 270
     },
     "bites=0,facing=north": {
-      "model": "wishfuldelight:block/cheeseblock",
+      "model": "wishfuldelight:block/cheese_wheel",
       "y": 180
     },
     "bites=0,facing=south": {
-      "model": "wishfuldelight:block/cheeseblock",
+      "model": "wishfuldelight:block/cheese_wheel",
       "y": 0
     },
     "bites=0,facing=west": {
-      "model": "wishfuldelight:block/cheeseblock",
+      "model": "wishfuldelight:block/cheese_wheel",
       "y": 90
     },
     "bites=1,facing=east": {
-      "model": "wishfuldelight:block/cheeseblock_1",
+      "model": "wishfuldelight:block/cheese_wheel_1",
       "y": 270
     },
     "bites=1,facing=north": {
-      "model": "wishfuldelight:block/cheeseblock_1",
+      "model": "wishfuldelight:block/cheese_wheel_1",
       "y": 180
     },
     "bites=1,facing=south": {
-      "model": "wishfuldelight:block/cheeseblock_1",
+      "model": "wishfuldelight:block/cheese_wheel_1",
       "y": 0
     },
     "bites=1,facing=west": {
-      "model": "wishfuldelight:block/cheeseblock_1",
+      "model": "wishfuldelight:block/cheese_wheel_1",
       "y": 90
     },
     "bites=2,facing=east": {
-      "model": "wishfuldelight:block/cheeseblock_2",
+      "model": "wishfuldelight:block/cheese_wheel_2",
       "y": 270
     },
     "bites=2,facing=north": {
-      "model": "wishfuldelight:block/cheeseblock_2",
+      "model": "wishfuldelight:block/cheese_wheel_2",
       "y": 180
     },
     "bites=2,facing=south": {
-      "model": "wishfuldelight:block/cheeseblock_2",
+      "model": "wishfuldelight:block/cheese_wheel_2",
       "y": 0
     },
     "bites=2,facing=west": {
-      "model": "wishfuldelight:block/cheeseblock_2",
+      "model": "wishfuldelight:block/cheese_wheel_2",
       "y": 90
     },
     "bites=3,facing=east": {
-      "model": "wishfuldelight:block/cheeseblock_3",
+      "model": "wishfuldelight:block/cheese_wheel_3",
       "y": 270
     },
     "bites=3,facing=north": {
-      "model": "wishfuldelight:block/cheeseblock_3",
+      "model": "wishfuldelight:block/cheese_wheel_3",
       "y": 180
     },
     "bites=3,facing=south": {
-      "model": "wishfuldelight:block/cheeseblock_3",
+      "model": "wishfuldelight:block/cheese_wheel_3",
       "y": 0
     },
     "bites=3,facing=west": {
-      "model": "wishfuldelight:block/cheeseblock_3",
+      "model": "wishfuldelight:block/cheese_wheel_3",
       "y": 90
     }
   }

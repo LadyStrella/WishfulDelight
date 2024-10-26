@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wishfuldelight:block/keg",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "wishfuldelight:block/keg",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "wishfuldelight:block/keg",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "wishfuldelight:block/keg",
+      "y": 90
+    }
+  }
+}

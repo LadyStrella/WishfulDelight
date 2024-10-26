@@ -20,5 +20,7 @@ public class ModItemModel extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModdedItems.CHEESE_WEDGE.get());
         basicItem(Item.byBlock(ModdedBlocks.CHEESE_WHEEL.get()));
+        basicItem(ModdedItems.SOFT_CHEESE_WEDGE.get());
+        basicItem(Item.byBlock(ModdedBlocks.SOFT_CHEESE_WHEEL.get()));
     }
 }
